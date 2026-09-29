@@ -1,0 +1,55 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+credentials*.json
+secrets.*
+*.pem
+*.key
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Raw dataset - not distributed with this repository
+data/raw/
+
+# Large/generated processed datasets
+data/processed/*.csv
+data/processed/tabular_splits/
+data/processed/graph_data/
+
+# Generated model artifacts
+models/*.pt
+models/*.pth
+models/*.pkl
+models/*.joblib
+
+# Local temporary files
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Project archives
+MRP.zip
+*.7z
+*.rar
+
+# Optional local exports / backups
+*.bak

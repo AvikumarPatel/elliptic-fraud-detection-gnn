@@ -1,0 +1,8 @@
+model,model_type,threshold_type,accuracy,precision,recall,f1,roc_auc,pr_auc
+Logistic Regression,Tabular ML,Default,0.8775,0.4395,0.9274,0.5964,0.9645,0.7475
+Random Forest,Tabular ML,Default,0.9875,0.9521,0.9186,0.9351,0.9958,0.9774
+XGBoost,Tabular ML,Default,0.9918,0.9749,0.9406,0.9574,0.9974,0.986
+GCN,Graph Neural Network,Default,0.9283,0.5863,0.901,0.7103,0.9748,0.853
+GCN Tuned Threshold,Graph Neural Network,Tuned,0.9634,0.822,0.7976,0.8096,0.9748,0.853
+GAT,Graph Neural Network,Default,0.7685,0.2899,0.9461,0.4438,0.9566,0.7962
+GAT Tuned Threshold,Graph Neural Network,Tuned,0.948,0.7297,0.7426,0.7361,0.9566,0.7962

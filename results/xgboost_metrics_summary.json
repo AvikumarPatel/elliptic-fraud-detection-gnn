@@ -1,0 +1,20 @@
+{
+    "xgboost_validation": {
+        "model": "XGBoost - Validation",
+        "accuracy": 0.9907655964780414,
+        "precision": 0.963923337091319,
+        "recall": 0.9405940594059405,
+        "f1_score": 0.9521158129175946,
+        "roc_auc": 0.996191373064008,
+        "pr_auc": 0.9841330019040235
+    },
+    "xgboost_test": {
+        "model": "XGBoost - Test",
+        "accuracy": 0.991839364329432,
+        "precision": 0.9749144811858609,
+        "recall": 0.9405940594059405,
+        "f1_score": 0.9574468085106383,
+        "roc_auc": 0.9974047142934188,
+        "pr_auc": 0.9859812820374405
+    }
+}

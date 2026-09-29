@@ -1,0 +1,21 @@
+{
+    "selected_threshold": 0.791242778301239,
+    "test_metrics_tuned_threshold": {
+        "accuracy": 0.9633845162675829,
+        "precision": 0.8219954648526077,
+        "recall": 0.7975797579757976,
+        "f1": 0.8096035734226689,
+        "roc_auc": 0.9747821640802823,
+        "pr_auc": 0.8530161256849158
+    },
+    "test_confusion_matrix_tuned_threshold": [
+        [
+            8247,
+            157
+        ],
+        [
+            184,
+            725
+        ]
+    ]
+}

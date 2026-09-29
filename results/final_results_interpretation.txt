@@ -1,0 +1,11 @@
+
+The final comparison shows that XGBoost achieved the strongest overall performance among all models.
+It produced the highest F1-score and PR-AUC, indicating that the tabular feature space contains strong predictive signal for illicit transaction detection.
+
+The graph-based models also provided useful results. The default GCN achieved high recall, meaning it detected a large proportion of illicit transactions, but it produced more false positives than the strongest tabular models.
+Threshold tuning improved the GCN by increasing precision and F1-score.
+The default GAT achieved very high recall but had low precision due to a large number of false positives.
+After threshold tuning, GAT became more balanced, although it still did not outperform XGBoost or the tuned GCN.
+
+Overall, the results suggest that graph-based learning is valuable for modeling transaction-network structure, but in this experimental setup, it did not automatically outperform strong tabular machine learning baselines.
+This finding is important because it supports the need for careful benchmarking rather than assuming that graph neural networks will always be superior on graph-structured fraud detection data.

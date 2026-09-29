@@ -1,0 +1,15 @@
+{
+    "num_nodes": 203769,
+    "num_features": 165,
+    "num_directed_edges": 234355,
+    "num_undirected_edges": 468710,
+    "num_nodes_appearing_in_edges": 203769,
+    "num_isolated_nodes_based_on_edge_list": 0,
+    "num_labeled_nodes": 46564,
+    "num_unlabeled_nodes": 157205,
+    "num_licit_nodes": 42019,
+    "num_illicit_nodes": 4545,
+    "num_train_nodes": 27938,
+    "num_validation_nodes": 9313,
+    "num_test_nodes": 9313
+}

@@ -1,0 +1,2 @@
+num_nodes,num_features,num_directed_edges,num_undirected_edges,num_nodes_appearing_in_edges,num_isolated_nodes_based_on_edge_list,num_labeled_nodes,num_unlabeled_nodes,num_licit_nodes,num_illicit_nodes,num_train_nodes,num_validation_nodes,num_test_nodes
+203769,165,234355,468710,203769,0,46564,157205,42019,4545,27938,9313,9313
